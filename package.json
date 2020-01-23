@@ -1,0 +1,20 @@
+{
+  "name": "tempat.can",
+  "version": "0.1.0",
+  "description": "Sisi back-end Tempat.can",
+  "main": "server.js",
+  "scripts": {
+    "run server-dev": "nodemon -r esm server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hasimy-as/Tempat.can.git"
+  },
+  "author": "Hasimy, Rama, Danu",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/hasimy-as/Tempat.can/issues"
+  },
+  "homepage": "https://github.com/hasimy-as/Tempat.can#readme",
+  "dependencies": {}
+}
