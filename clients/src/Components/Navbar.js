@@ -5,7 +5,7 @@ import "../Assets/style.css";
 export class Navbar extends Component {
   render() {
     return (
-      <div className='container'>
+      <div id='header'>
         <div className='container'>
           <div id='logo' className='pull-left'>
             <h1>
