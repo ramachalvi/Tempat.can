@@ -1,0 +1,11 @@
+{
+  "name": "servers",
+  "version": "0.1.0",
+  "description": "Sisi back-end dari Tempat.can",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hasimy, Rama, Danu",
+  "license": "Apache-2.0"
+}
