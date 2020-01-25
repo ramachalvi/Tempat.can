@@ -13,7 +13,7 @@ export class HeaderBeranda extends Component {
         <div className='squares square8' />
         <Container>
           <div className='content-center brand'>
-            <h1 className='h1-seo'>Tempat-Can</h1>
+            <h1 className='h1-seo'>Tempat-can</h1>
             <h3 className='d-none d-sm-block'>
               Membantu proses peminjaman, dan penyediaan tempat untuk acara
               anda.

@@ -86,7 +86,7 @@ class ComponentsNavbar extends React.Component {
               title='Dipersembahkan oleh Tim HRD'
               tag={Link}
             >
-              <span>Tempat-Can </span>
+              <span>Tempat.can </span>
             </NavbarBrand>
             <button
               aria-expanded={this.state.collapseOpen}
@@ -140,7 +140,7 @@ class ComponentsNavbar extends React.Component {
                   Lainnya
                 </DropdownToggle>
                 <DropdownMenu className='dropdown-with-icons'>
-                  <DropdownItem href='#'>
+                  <DropdownItem tag={Link} to='/tentang'>
                     <i className='tim-icons icon-paper' />
                     Tentang
                   </DropdownItem>
