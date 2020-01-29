@@ -5,9 +5,9 @@ import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import Beranda from "./Beranda";
 import Tentang from "./Components/Tentang";
 
-import "./assets/css/nucleo-icons.css";
-import "./assets/css/style.css";
-import "./assets/demo/demo.css";
+import './Assets/css/nucleo-icons.css'
+import './Assets/css/style.css'
+import './Assets/demo/demo.css'
 
 export class App extends Component {
   render() {
