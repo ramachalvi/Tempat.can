@@ -74,28 +74,28 @@ class ComponentsNavbar extends React.Component {
     return (
       <Navbar
         className={"fixed-top " + this.state.color}
-        color-on-scroll='100'
-        expand='lg'
+        color-on-scroll="100"
+        expand="lg"
       >
         <Container>
-          <div className='navbar-translate'>
+          <div className="navbar-translate">
             <NavbarBrand
-              data-placement='bottom'
-              to='/'
-              rel='noopener noreferrer'
-              title='Dipersembahkan oleh Tim HRD'
+              data-placement="bottom"
+              to="/"
+              rel="noopener noreferrer"
+              title="Dipersembahkan oleh Tim HRD"
               tag={Link}
             >
-              <span>Tempat.can </span>
+              <span>Tempat.can</span>
             </NavbarBrand>
             <button
               aria-expanded={this.state.collapseOpen}
-              className='navbar-toggler navbar-toggler'
+              className="navbar-toggler navbar-toggler"
               onClick={this.toggleCollapse}
             >
-              <span className='navbar-toggler-bar bar1' />
-              <span className='navbar-toggler-bar bar2' />
-              <span className='navbar-toggler-bar bar3' />
+              <span className="navbar-toggler-bar bar1" />
+              <span className="navbar-toggler-bar bar2" />
+              <span className="navbar-toggler-bar bar3" />
             </button>
           </div>
           <Collapse
@@ -105,62 +105,62 @@ class ComponentsNavbar extends React.Component {
             onExiting={this.onCollapseExiting}
             onExited={this.onCollapseExited}
           >
-            <div className='navbar-collapse-header'>
+            <div className="navbar-collapse-header">
               <Row>
-                <Col className='collapse-brand' xs='6'>
-                  <a href='/' onClick={e => e.preventDefault()}>
+                <Col className="collapse-brand" xs="6">
+                  <a href="/" onClick={e => e.preventDefault()}>
                     Tempat-Can
                   </a>
                 </Col>
-                <Col className='collapse-close text-right' xs='6'>
+                <Col className="collapse-close text-right" xs="6">
                   <button
                     aria-expanded={this.state.collapseOpen}
-                    className='navbar-toggler'
+                    className="navbar-toggler"
                     onClick={this.toggleCollapse}
                   >
-                    <i className='tim-icons icon-simple-remove' />
+                    <i className="tim-icons icon-simple-remove" />
                   </button>
                 </Col>
               </Row>
             </div>
             <Nav navbar>
               <NavItem>
-                <NavLink href='/'>Beranda</NavLink>
+                <NavLink href="/">Beranda</NavLink>
               </NavItem>
               <UncontrolledDropdown nav>
                 <DropdownToggle
                   caret
-                  color='default'
-                  data-toggle='dropdown'
-                  href='#pablo'
+                  color="default"
+                  data-toggle="dropdown"
+                  href="#pablo"
                   nav
                   onClick={e => e.preventDefault()}
                 >
-                  <i className='fa fa-cogs d-lg-none d-xl-none' />
+                  <i className="fa fa-cogs d-lg-none d-xl-none" />
                   Lainnya
                 </DropdownToggle>
-                <DropdownMenu className='dropdown-with-icons'>
-                  <DropdownItem tag={Link} to='/tentang'>
-                    <i className='tim-icons icon-paper' />
+                <DropdownMenu className="dropdown-with-icons">
+                  <DropdownItem tag={Link} to="/tentang">
+                    <i className="tim-icons icon-paper" />
                     Tentang
                   </DropdownItem>
-                  <DropdownItem tag={Link} to='#'>
-                    <i className='tim-icons icon-bullet-list-67' />
+                  <DropdownItem tag={Link} to="#">
+                    <i className="tim-icons icon-bullet-list-67" />
                     Bantuan
                   </DropdownItem>
-                  <DropdownItem tag={Link} to='#'>
-                    <i className='tim-icons icon-image-02' />
+                  <DropdownItem tag={Link} to="#">
+                    <i className="tim-icons icon-image-02" />
                     Kerjasama
                   </DropdownItem>
-                  <DropdownItem tag={Link} to='#'>
-                    <i className='tim-icons icon-single-02' />
+                  <DropdownItem tag={Link} to="#">
+                    <i className="tim-icons icon-single-02" />
                     Kontak
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem>
-                <Button className='nav-link d-none d-lg-block' color='default'>
-                  <i className='tim-icons icon-calendar-60' /> Pinjam!
+                <Button className="nav-link d-none d-lg-block" color="default">
+                  <i className="tim-icons icon-calendar-60" /> Pinjam!
                 </Button>
               </NavItem>
             </Nav>

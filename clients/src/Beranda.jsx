@@ -1,11 +1,9 @@
-import React from "react";
-import { Component } from "react";
-import { BrowserRouter } from "react-router-dom";
+import React, { Component } from "react";
 
 import Navbar from "./Components/Navigasi";
 import Header from "./Components/HeaderBeranda";
 
-export class Beranda extends Component {
+export default class Beranda extends Component {
   componentDidMount() {
     document.body.classList.toggle("index-page");
   }
@@ -15,16 +13,12 @@ export class Beranda extends Component {
 
   render() {
     return (
-      <React.Fragment>
-        <BrowserRouter>
+      <div>
           <Navbar />
-        </BrowserRouter>
         <div className='wrapper'>
           <Header />
         </div>
-      </React.Fragment>
+      </div>
     );
   }
 }
-
-export default Beranda;
