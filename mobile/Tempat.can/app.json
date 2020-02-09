@@ -25,6 +25,8 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "Aplikasi PKK oleh Tim HRD (Hasimy, Rama, Danu), dengan ReactJS dan NodeJS.",
+    "githubUrl": "https://github.com/hasimy-as/Tempat.can/tree/master/mobile/Tempat.can"
   }
 }

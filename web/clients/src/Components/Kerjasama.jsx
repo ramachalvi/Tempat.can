@@ -3,7 +3,7 @@ import { Container, Row } from "reactstrap";
 import Navigasi from './TampilanAwal/Navigasi';
 import Footer from './TampilanAwal/Footer';
 
-export default class Bantuan extends Component {
+export default class Kerjasama extends Component {
 	componentDidMount() {
 		document.body.classList.toggle("landing-page");
 	}
@@ -53,7 +53,7 @@ export default class Bantuan extends Component {
 								<Row className="text-center">
 									<Container>
 										<h1 className="h1-seo">
-											<span className="text-white">Bantuan</span>
+											<span className="text-white">Kerjasama</span>
 										</h1>
 									</Container>
 								</Row>

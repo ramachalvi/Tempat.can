@@ -5,6 +5,8 @@ import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 import Beranda from './Beranda';
 import Tentang from './Components/Tentang';
 import Bantuan from './Components/Bantuan';
+import Kerjasama from './Components/Kerjasama';
+import Kontak from './Components/Kontak';
 
 import './Assets/css/nucleo-icons.css';
 import './Assets/css/style.css';
@@ -16,6 +18,14 @@ export default class App extends Component {
 			<div>
 				<BrowserRouter>
 					<Switch>
+						<Route
+							path='/kerjasama'
+							render={props => <Kerjasama {...props} />}
+						/>
+						<Route
+							path='/kontak'
+							render={props => <Kontak {...props} />}
+						/>
 						<Route
 							path='/tentang'
 							render={props => <Tentang {...props} />}
