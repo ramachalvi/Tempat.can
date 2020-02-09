@@ -158,7 +158,7 @@ export default class Navigasi extends React.Component {
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem>
-                <Button className="nav-link d-none d-lg-block" color="default">
+                <Button tag={Link} to="/pinjam" className="nav-link d-none d-lg-block" color="default">
                   <i className="tim-icons icon-calendar-60" /> Pinjam!
                 </Button>
               </NavItem>

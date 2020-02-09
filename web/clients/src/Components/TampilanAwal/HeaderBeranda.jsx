@@ -8,6 +8,7 @@ import {
   CardTitle,
   Row
 } from "reactstrap";
+import { Link } from "react-router-dom";
 
 export class HeaderBeranda extends Component {
   componentDidMount() {
@@ -70,10 +71,10 @@ export class HeaderBeranda extends Component {
                       Kuy minjem!
                     </p>
                     <Button
+                      tag={Link}
+                      to="/pinjam"
                       className="btn-link"
                       color="success"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
                     >
                       <i className="tim-icons icon-minimal-right" />
                     </Button>

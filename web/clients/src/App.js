@@ -7,6 +7,7 @@ import Tentang from './Components/Tentang';
 import Bantuan from './Components/Bantuan';
 import Kerjasama from './Components/Kerjasama';
 import Kontak from './Components/Kontak';
+import Pinjam from './Components/Pinjam';
 
 import './Assets/css/nucleo-icons.css';
 import './Assets/css/style.css';
@@ -18,6 +19,10 @@ export default class App extends Component {
 			<div>
 				<BrowserRouter>
 					<Switch>
+						<Route
+							path='/pinjam'
+							render={props => <Pinjam {...props} />}
+						/>
 						<Route
 							path='/kerjasama'
 							render={props => <Kerjasama {...props} />}
