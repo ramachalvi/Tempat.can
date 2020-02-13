@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Row } from "reactstrap";
+import { Container, Row, Button } from "reactstrap";
 import Navigasi from './TampilanAwal/Navigasi';
 import Footer from './TampilanAwal/Footer';
 
@@ -11,10 +11,13 @@ export default class Tentang extends Component {
 		document.body.classList.toggle("landing-page");
 	}
 
+
+
 	render() {
 		return (
 			<div>
 				<Navigasi />
+
 				<div className='wrapper'>
 					<div className="wrapper">
 						<div className="page-header">
@@ -48,6 +51,7 @@ export default class Tentang extends Component {
 								className="shapes circle"
 								src={require("../Assets/img/cercuri.png")}
 							/>
+							{/* img bagian clone beranda */}
 
 							<div className="content-center brand">
 								<Row className="text-center">
@@ -55,6 +59,13 @@ export default class Tentang extends Component {
 										<h1 className="h1-seo">
 											<span className="text-white">Tentang Kami</span>
 										</h1>
+										<Button
+											className="btn-link"
+											color="success"
+										>
+											<p className="category text-success">Liat dong</p>
+											<i className="tim-icons icon-minimal-down" />
+										</Button>
 									</Container>
 								</Row>
 							</div>

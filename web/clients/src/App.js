@@ -24,20 +24,20 @@ export default class App extends Component {
 							render={props => <Pinjam {...props} />}
 						/>
 						<Route
-							path='/kerjasama'
-							render={props => <Kerjasama {...props} />}
-						/>
-						<Route
 							path='/kontak'
 							render={props => <Kontak {...props} />}
 						/>
 						<Route
-							path='/tentang'
-							render={props => <Tentang {...props} />}
+							path='/kerjasama'
+							render={props => <Kerjasama {...props} />}
 						/>
 						<Route
 							path='/bantuan'
 							render={props => <Bantuan {...props} />}
+						/>
+						<Route
+							path='/tentang'
+							render={props => <Tentang {...props} />}
 						/>
 						<Route
 							path='/'
