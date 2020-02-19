@@ -15,7 +15,7 @@ export default class SplashScreen extends Component {
       }}>
         <Image
           source={{
-            uri: '../Assets/tempatcan.png'
+            uri: 'https://raw.githubusercontent.com/hasimy-as/Tempat.can/blob/develop/mobile/Tempat.can/src/Assets/tempatcan.png'
           }}
           style={{ width: 100, height: 100 }}
         />
