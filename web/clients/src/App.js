@@ -41,7 +41,7 @@ export default class App extends Component {
 						/>
 						<Route
 							path='/'
-							render={props => <Beranda {...props} />}
+							render={props => <Tentang {...props} />}
 						/>
 					</Switch>{' '}
 					<Redirect from='/' to='/beranda' />

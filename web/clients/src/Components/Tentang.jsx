@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { Container, Row, Button } from "reactstrap";
 import Navigasi from './TampilanAwal/Navigasi';
 import Footer from './TampilanAwal/Footer';
-
 export default class Tentang extends Component {
+
 	componentDidMount() {
 		document.body.classList.toggle("landing-page");
 	}
@@ -62,12 +62,16 @@ export default class Tentang extends Component {
 										<Button
 											className="btn-link"
 											color="success"
+											onClick=''
 										>
 											<p className="category text-success">Liat dong</p>
 											<i className="tim-icons icon-minimal-down" />
 										</Button>
 									</Container>
 								</Row>
+
+								<br />
+								<h1 style={{ marginBottom: 20 }}>Marg</h1>
 							</div>
 						</div>
 					</div>

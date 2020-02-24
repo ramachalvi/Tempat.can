@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 
-export default class Pesan extends Component {
+export default class Pinjam extends Component {
     render() {
         return (
             <div>
