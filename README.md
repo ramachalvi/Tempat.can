@@ -7,9 +7,9 @@ Projek PKWU oleh Tim HRD.
 [![Lisensi GitHub](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://raw.githubusercontent.com/hasimy-as/Tempat.can/master/LICENSE)
 [![Versi npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/)
 
-## Versi 0.0.9A_1
+# Versi 0.9
 
-Versi tahap Alpha 1.
+Versi aplikasi 0.9 Alpha.
 
 # Penggunaan
 
